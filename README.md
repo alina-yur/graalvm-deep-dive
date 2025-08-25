@@ -19,7 +19,6 @@
   * Library configuration can be provided via GraalVM Reachability Metadata Repository;
   * 👩‍💻 You can programmatically generate configuration via framework annotations, such as `@ReflectiveAccess` ([Micronaut](https://guides.micronaut.io/latest/micronaut-graalvm-reflection-maven-java.html))
   * You can use Native Image's Tracing Agent (`java -agentlib:native-image-agent -jar ./target/demo.jar`)
-```);
   * You can provide configuration manually via json.
 * Performance optimizations 🚀
   * [Overview of compiler optimization levels](https://github.com/alina-yur/native-spring-boot?tab=readme-ov-file#optimization-levels-in-native-image)
