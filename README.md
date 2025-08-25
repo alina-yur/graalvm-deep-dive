@@ -25,6 +25,7 @@
   * [Overview of compiler optimization levels](https://github.com/alina-yur/native-spring-boot?tab=readme-ov-file#optimization-levels-in-native-image)
   * 👩‍💻 PGO
     * ML-enabled PGO
+    * You get [LCOV](https://www.graalvm.org/latest/reference-manual/native-image/optimizations-and-performance/PGO/LCOV/) info as a side product of PGO
   * G1 GC
   * `-march=native`
   * Memory management (`xmx`)
