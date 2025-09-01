@@ -58,7 +58,7 @@
     * (Tempo -> service graph)
   * 👩‍💻 `jvmstat` <!-- visualvm --jdkhome /Users/ayurenko/.sdkman/candidates/java/23-graal --> 
   * JFR, JMX, `jcmd`
-  * `perf stat <process>`
+  * `perf stat <./target/demo>`
 * Tooling 🔮
   * 👩‍💻 Build reports
 * In the lab 👩‍🔬
