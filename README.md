@@ -41,6 +41,16 @@
     * Native | Mostly static | Distroless
     * Native | Static | From scratch 
     * Native | Static | From scratch | Optimize for size
+    * You can significantly reduce the size by going with Native Image:
+```shell
+➜ docker images | grep "native"                                                                
+localhost/native-spring-boot-static-size            latest         ... ...    58.5 MB
+localhost/native-spring-boot-static-scratch         latest         ... ...    84.4 MB
+localhost/native-spring-boot-native                 latest         ... ...    125 MB
+localhost/native-spring-boot-jdk-jlink              latest         ... ...    126 MB
+localhost/native-spring-boot-jdk-distroless         latest         ... ...    218 MB
+localhost/native-spring-boot-jdk                    latest         ... ...    480 MB
+```
   * Scan the images for vulnerabilities & packages 🛡️
   * Buildpacks
   * GitHub actions
